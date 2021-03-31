@@ -6,7 +6,7 @@ const Extra = require('telegraf/extra')
 const Markup = require('telegraf/markup')
 const fs = require('fs')
 
-const { gerandoResultado }  = require('./randomChoice')
+const { generatesResult }  = require('./randomChoice')
 
 // instantiate the bot object
 const bot = new Telegraf(env.token)
@@ -90,7 +90,7 @@ if(closedSubs) {
 
 // get list of the 3 numbers choosed
 const arrIndex = async () => {
-    index = await gerandoResultado()
+    index = await generatesResult()
     console.log(`3 index: ${index}\n`)
     return index
 } 
@@ -103,7 +103,7 @@ const arrIndex = async () => {
     for(let i=0; i <= 2; i++){
         winners.push(userIDs[arr[i]])
         }
-    console.log(`Winners: ${vencedores}\n`)
+    console.log(`Winners: ${winners}\n`)
     // creates file with the winners ids
     fs.writeFile('result.txt', winners, (err) => {
             if(err) throw (err)
