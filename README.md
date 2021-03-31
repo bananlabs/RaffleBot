@@ -9,7 +9,8 @@ access this website >>  [ANU QRNG](https://qrng.anu.edu.au/).
 **Required**: npm init [nodeJS].
 
 **Dependencies:** 
-* [telegraf | Telegram Bot framework]
-* [node-fetch | to fetch url and get data from API]
+* [telegraf](https://www.npmjs.com/package/telegraf) | Telegram Bot framework.
+* [node-fetch](https://www.npmjs.com/package/node-fetch) | A light-weight module that brings window.fetch to Node.js
+
 
 
