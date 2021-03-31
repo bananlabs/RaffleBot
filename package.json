@@ -11,5 +11,9 @@
     "url": "RaffleBot"
   },
   "author": "Paulo Ferr",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "2.6.1",
+    "telegraf": "3.38.0"
+  }
 }
