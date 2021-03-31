@@ -6,7 +6,7 @@ access this website >>  [ANU QRNG](https://qrng.anu.edu.au/).
 
 -------------------------------------------------------------------------
 
-**Required**: npm init [nodeJS].
+**Required**: npm init [nodeJs].
 
 **Dependencies:** 
 * [telegraf](https://www.npmjs.com/package/telegraf) | Telegram Bot framework.
