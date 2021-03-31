@@ -11,10 +11,10 @@ const { gerandoResultado }  = require('./randomChoice')
 // instantiate the bot object
 const bot = new Telegraf(env.token)
 
-// set flag to verify if subscritions are closed
+// set flag to verify if subscriptions are closed
 let closedSubs = false
 
-// create array with user ids that subscribe to the raffle
+// create array with user ids that subscribed to the raffle
 const userIDs = []
 
 // create array of the full information of the subscribers
@@ -56,7 +56,7 @@ bot.action('insertID', async ctx => {
     const verifyBot = ctx.from.is_bot
    if(userIDs.length <= MAX_SUBS){ 
         // verify if user is in the subscription list 
-        // and if it is a bot. If the condition is true, 
+        // and if he is a bot. If the condition is true, 
         // the user is forbidden of subscribe again
         for(let i = 0; i <= userIDs.length; i++){
             if(userIDs[i] !== getID && verifyBot === false){
