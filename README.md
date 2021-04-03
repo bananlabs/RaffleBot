@@ -10,7 +10,7 @@ access this website >>  [ANU QRNG](https://qrng.anu.edu.au/).
 
 **Dependencies:** 
 * [telegraf](https://www.npmjs.com/package/telegraf) | Telegram Bot framework | 
-* Install version 3.38: _npm i --save telegraf@3.38 -E_.
+* Install version 3.38: > npm i --save telegraf@3.38 -E.
   
 * [node-fetch](https://www.npmjs.com/package/node-fetch) | A light-weight module that brings window.fetch to Node.js
 
