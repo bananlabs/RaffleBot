@@ -28,7 +28,7 @@ let count = 1
 
 // subscription button
 const button = Extra.markup(Markup.inlineKeyboard([
-    Markup.callbackButton('✅ Inscrever', 'insertID')
+    Markup.callbackButton('✅ Subscribe', 'insertID')
 ]))
 // start message
 bot.start(async ctx => {
@@ -91,7 +91,6 @@ if(closedSubs) {
 // get list of the 3 numbers choosed
 const arrIndex = async () => {
     index = await generatesResult()
-    console.log(`3 index: ${index}\n`)
     return index
 } 
 
