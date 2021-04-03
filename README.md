@@ -12,5 +12,6 @@ access this website >>  [ANU QRNG](https://qrng.anu.edu.au/).
 * [telegraf](https://www.npmjs.com/package/telegraf) | Telegram Bot framework | Install version 3.38: _npm i --save telegraf@3.38 -E_.
 * [node-fetch](https://www.npmjs.com/package/node-fetch) | A light-weight module that brings window.fetch to Node.js
 
+Create a .env file with your API Token, use the env-sample file as an example.
 
 
