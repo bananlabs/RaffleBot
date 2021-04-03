@@ -17,7 +17,6 @@ const getUrl = async () => {
     try {
         const res = await fetch(baseUrl)
         const result = await res.json()
-        console.log(result)
         return result
        
     } catch(err) {
